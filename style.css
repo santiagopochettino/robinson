@@ -1,0 +1,800 @@
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+@font-face {
+  font-family: "Code-pro-light";
+  src: local("Code-pro-light"),
+    url("../fonts/Code Pro Light.otf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: local("Poppins-ExtraLight"),
+    url("./Poppins/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+a,
+h4 {
+  text-decoration: none;
+  color: #707070;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+header,
+section {
+  margin-right: auto;
+  margin-left: auto;
+}
+#in-img {
+  width: 1180px;
+  margin-top: 60px;
+}
+#in-img h2 {
+  padding: 50px 80px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Code-pro-light;
+  font-size: 75px;
+  float: left;
+}
+.parallax {
+  /* The image used */
+
+  background-image: url(./imagenes/Lateral.jpg);
+  /* Set a specific height */
+  height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#inicio {
+  height: 650px;
+}
+#btn-wsp {
+  height: 45px;
+  width: 255px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  position: static;
+  opacity: 100%;
+  text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  border: #000;
+  border-style: solid;
+}
+#btn-wsp a {
+  font-weight: 500;
+}
+
+#btn-wsp a:hover {
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 10px;
+}
+#btn-cont {
+  width: 255px;
+  height: 45px;
+  margin-right: 20px;
+  opacity: 100%;
+  background-color: #000000;
+  padding: 3px 3px 3px 3px;
+}
+
+#navbar {
+  left: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+}
+#nav {
+  float: left;
+  margin-left: 40px;
+}
+
+#navbar ul li {
+  float: left;
+  display: inline;
+  margin-top: 20px;
+}
+#navbar li a {
+  padding: 15px;
+
+  font-size: 1em;
+  text-align: center;
+  font-family: Code-pro-light;
+}
+#navbar li a:hover {
+  text-decoration: underline 0.5px;
+  text-decoration-color: #000;
+  color: #000;
+}
+.myicono {
+  font-size: 1.5em;
+  padding: 10px;
+  display: none;
+}
+#content {
+  max-width: 1180px;
+  position: relative;
+  margin: 0 auto;
+  border: solid 1px;
+  border-color: #00000029;
+}
+#content header {
+  width: 1180px;
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+  margin-top: 0;
+  border: solid 1px;
+  border-color: #00000029;
+}
+#marca h4 {
+  padding-left: 80px;
+  font-family: Code-pro-light;
+}
+
+#concept-text {
+  width: 1034px;
+  height: 300px;
+  padding-left: 70px;
+}
+#concept-text h1 {
+  text-align: center;
+  font-family: Code-pro-light;
+  font-weight: lighter;
+}
+#concept-text p {
+  padding-left: 60px;
+  text-align: center;
+  font-family: Poppins-ExtraLight;
+  margin-top: 50px;
+}
+#concepto-2 {
+  height: 100px;
+}
+#concepto {
+  height: 600px;
+}
+.linea {
+  width: 800px;
+  color: #000;
+}
+#con-img {
+  width: 580px;
+  float: right;
+}
+.concpt-img {
+  width: 100%;
+  opacity: 1;
+}
+#con-img2 {
+  width: 580px;
+  float: left;
+}
+.concpt-img2 {
+  width: 100%;
+  opacity: 1;
+}
+#unidades-3 {
+  height: 100px;
+}
+#unidades {
+  height: 420px;
+}
+#uni-img {
+  width: 530px;
+  float: right;
+}
+.uni-img {
+  width: 100%;
+  height: 420px;
+}
+#uni-text {
+  width: 600px;
+  float: left;
+  padding-left: 90px;
+}
+#uni-text p {
+  font-size: medium;
+  padding: 0;
+  margin: 0%;
+  font-family: Poppins-ExtraLight;
+}
+#uni-text h4 {
+  font-weight: lighter;
+  font-size: xx-large;
+  margin-bottom: 40px;
+  font-family: Code-pro-light;
+}
+#eco-4 {
+  height: 100px;
+}
+#eco {
+  width: 1180px;
+  height: 650px;
+  background-color: #ebffeb;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url(Solarium\ zoom.jpeg);
+  /* Set a specific height */
+
+  height: 320px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#eco-fondo {
+  width: 1180px;
+  height: 40px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+  margin: 0;
+
+  transform: translateY(700%);
+}
+#eco-fondo p {
+  color: #fff;
+  text-align: left;
+  font-size: 25px;
+  font-family: Poppins-ExtraLight;
+  opacity: 100%;
+  margin-left: 100px;
+}
+
+#eco-text {
+  font-family: Poppins-ExtraLight;
+  margin-top: 80px;
+  margin-left: 90px;
+  float: left;
+}
+#eco-text p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+#eco-img2 {
+  width: 1180px;
+}
+.eco-img2 {
+  float: right;
+  margin-top: 80px;
+  margin-right: 40px;
+  width: 20%;
+  height: 20%;
+}
+#planos-5 {
+  height: 50px;
+}
+#planos {
+  height: 750px;
+}
+#carousel-planos {
+  height: 300px;
+  width: 1180px;
+}
+.carrusel {
+  width: 100%;
+}
+#pl-text {
+  margin-top: 20px;
+}
+#pl-text h2 {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: lighter;
+  font-family: Code-pro-light;
+}
+#ubicacion-6 {
+  height: 150px;
+}
+#ubicacion {
+  height: 400px;
+}
+#ubicacion iframe {
+  margin-top: 30px;
+}
+#ubi-text h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: Code-pro-light;
+}
+#nosotros-7 {
+  height: 50px;
+}
+#nosotros {
+  height: 800px;
+  color: #fff;
+  padding-top: 40px;
+}
+#pie {
+  float: left;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+#pie h3 {
+  font-family: Code-pro-light;
+}
+#pie p {
+  font-family: Poppins-ExtraLight;
+}
+#pie-p {
+  padding-left: 150px;
+  font-family: Poppins-ExtraLight;
+}
+#consultas {
+  float: right;
+  text-align: center;
+  padding-right: 150px;
+  margin-top: 50px;
+  font-family: Code-pro-light;
+}
+#nos-img {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Code-pro-light;
+}
+
+.parallax2 {
+  /* The image used */
+
+  background-image: url(./imagenes/Lateral2.jpg);
+  /* Set a specific height */
+
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nos-fondo {
+  width: 1180px;
+  height: 450px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  margin: 0;
+
+  -ms-transform: translateY(38%);
+  transform: translateY(38%);
+}
+#btn-wsp2 {
+  height: 35px;
+  width: 255px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  position: static;
+  opacity: 100%;
+  text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  border-radius: #000;
+  border-style: solid;
+}
+#btn-wsp2 a {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#btn-wsp2 a:hover {
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+#btn-cont2 {
+  border-color: #fff;
+  border: solid 3px;
+  width: 200px;
+  opacity: 100%;
+  background-color: #000000;
+  padding: 3px 3px 3px 3px;
+}
+
+#iconos {
+  font-size: xx-large;
+  margin-top: 100px;
+  padding-right: 10px;
+}
+
+#contacto {
+  height: 50px;
+}
+#contacto p {
+  text-align: center;
+  font-size: smaller;
+  font-family: Poppins-ExtraLight;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  #in-img {
+    width: 960px;
+    height: 750px;
+    margin-top: 100px;
+  }
+
+  .parallax {
+    height: 750px;
+  }
+  #btn-cont {
+    width: 200px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  #inicio {
+    height: 750px;
+  }
+  #navbar {
+    display: block;
+  }
+
+  #content {
+    max-width: 960px;
+  }
+  #content header {
+    width: 960px;
+    height: 160px;
+  }
+  #inicio-1 {
+    height: 50px;
+  }
+  #concept-text {
+    width: 960px;
+    height: 250px;
+  }
+
+  #concepto-2 {
+    height: 200px;
+  }
+  #concepto {
+    height: 1200px;
+  }
+
+  #con-img {
+    width: 960px;
+    float: left;
+  }
+
+  #con-img2 {
+    width: 960px;
+  }
+  .concpt-img2 {
+    margin-top: 15px;
+  }
+  #unidades-3 {
+    height: 200px;
+  }
+  #unidades {
+    height: 300px;
+  }
+  #uni-img {
+    width: 960px;
+    float: left;
+  }
+  .uni-img {
+    display: none;
+  }
+  #uni-text {
+    width: 960px;
+    text-align: center;
+  }
+
+  #eco-4 {
+    height: 200px;
+  }
+  #eco {
+    width: 960px;
+    height: 950px;
+  }
+
+  #eco-fondo {
+    width: 960px;
+    height: 40px;
+  }
+  #eco-fondo p {
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+
+    margin-left: 100px;
+  }
+  #eco-text {
+    margin-top: 80px;
+    margin-left: 90px;
+    float: left;
+  }
+  #eco-text p {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  #eco-img2 {
+    width: 960px;
+  }
+  .eco-img2 {
+    float: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 300px;
+    width: 30%;
+    height: 30%;
+  }
+
+  #planos-5 {
+    height: 200px;
+  }
+  #planos {
+    height: 700px;
+  }
+  #carousel-planos {
+    height: 400px;
+    width: 960px;
+  }
+  #ubicacion-6 {
+    height: 200px;
+  }
+  #ubicacion {
+    height: 700px;
+  }
+  #ubicacion iframe {
+    width: 960px;
+  }
+
+  #nosotros-7 {
+    height: 200px;
+  }
+  /**/
+  #nosotros {
+    height: 1000px;
+    padding-top: 0px;
+  }
+  #pie {
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  #pie-p {
+    padding-left: 100px;
+  }
+  #nos-fondo {
+    width: 960px;
+    height: 800px;
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
+  }
+  #consultas {
+    float: right;
+    text-align: center;
+    padding-right: 250px;
+    margin-top: 50px;
+  }
+  #contacto {
+    height: 0;
+  }
+}
+/*********************** hasta aca llega***********************************/
+
+@media all and (max-width: 599px) {
+  #in-img {
+    width: 100%;
+  }
+
+  .parallax {
+    height: auto;
+  }
+  #inicio {
+    height: auto;
+  }
+
+  #btn-cont {
+    width: 255px;
+    height: 35px;
+    margin-right: 20px;
+    opacity: 100%;
+  }
+
+  header {
+    height: auto;
+  }
+
+  #marca {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  #marca h4 {
+    font-size: xx-large;
+    padding-top: 10px;
+  }
+  #navbar {
+    width: 100%;
+  }
+  #nav {
+    float: none;
+  }
+  #navbar ul li h4 {
+    float: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  #navbar ul li {
+    float: none;
+  }
+  #navbar li a {
+    padding: 50px 25px;
+    font-size: 25px;
+    display: inline-block;
+    height: auto;
+  }
+  #navbar ul li a {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 5px;
+    text-align: center;
+  }
+  #navbar li a:hover {
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+
+  .myicono {
+    display: block;
+    text-align: left;
+    font-size: xx-large;
+  }
+  .lista-sm {
+    display: none;
+  }
+
+  #content {
+    max-width: 100%;
+  }
+  #content header {
+    width: 100%;
+    height: auto;
+    padding: 0px 10px;
+    position: relative;
+    display: inline-block;
+  }
+  #marca h4 {
+    padding-left: 80px;
+  }
+
+  #concept-text {
+    width: 100%;
+    height: auto;
+  }
+
+  #concepto-2 {
+    height: auto;
+  }
+  #concepto {
+    height: auto;
+  }
+  .linea {
+    width: 100%;
+  }
+
+  #con-img {
+    width: 100%;
+    float: none;
+  }
+
+  #con-img2 {
+    width: 100%;
+    float: none;
+  }
+
+  #unidades-3 {
+    height: auto;
+  }
+  #unidades {
+    height: auto;
+  }
+  #uni-img {
+    width: 100%;
+    float: none;
+  }
+
+  #uni-text {
+    width: 100%;
+    float: none;
+  }
+
+  #eco-4 {
+    height: auto;
+  }
+  #eco {
+    width: 100%;
+    height: auto;
+  }
+  .parallax3 {
+    display: none;
+  }
+  #eco-fondo {
+    width: 100%;
+    height: auto;
+    transform: translateY(700%);
+  }
+
+  #eco-img2 {
+    display: none;
+  }
+  .eco-img2 {
+    float: none;
+  }
+  #planos-5 {
+    height: auto;
+  }
+  #planos {
+    height: auto;
+  }
+  #carousel-planos {
+    height: auto;
+    width: 100%;
+  }
+
+  #ubicacion-6 {
+    height: auto;
+  }
+  #ubicacion {
+    width: 100%;
+    height: auto;
+  }
+  #ubicacion iframe {
+    width: 100%;
+  }
+
+  #nosotros-7 {
+    height: auto;
+  }
+  #nosotros {
+    height: 900px;
+  }
+  #pie {
+    float: none;
+    font-size: small;
+  }
+
+  #consultas {
+    float: none;
+    padding-left: 80px;
+    font-size: x-small;
+  }
+  #iconos {
+    width: 100%;
+    height: auto;
+    font-size: large;
+    margin-top: 0px;
+  }
+
+  #nos-fondo {
+    width: 100%;
+    height: auto;
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+
+  #contacto {
+    height: auto;
+  }
+}
+/************************* hasta aca llega***************************/
