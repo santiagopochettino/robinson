@@ -44,8 +44,9 @@
        <h2>ROBINSON</h2>
        <div class="container">
         <div class="modal fade" tabindex="-1" id="modal1">
-            <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-dialog  modal-dialog-centered mod">
                 <div class="modal-content">
+                  <div class="cerrar"><button class="btn cerrar-x" data-dismiss="modal" >&times;</button></div>
                     <div class="modal-body">
                         <label for="nombre">Nombre</label>
                         <input id="nombre" type="text" placeholder="Escribe tu Nombre Completo..." required class="form-control">
@@ -53,18 +54,17 @@
                         <input id="email" type="email" placeholder="Escribe tu Email..." required class="form-control">
                         <label for="telefono">Telefono</label>
                         <input id="telefono" type="number" placeholder="Escribe tu Telefono..." required class="form-control">
+                        <button class="btn btn-dark modal-btn">Enviar</button>
                     </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-dark">Enviar</button>
-                        <button class="btn btn-danger" data-dismiss="modal" >&times;</button>
-                    </div>
-    
                 </div>
             </div>
         </div>
-        
-            <button id="btn-cont" class="btn btn-dark" type="button" data-toggle="modal" data-target="#modal1">CONTACTO</button>
-            <button id="btn-wsp" class="btn btn-light" type="button"><a href="https://api.whatsapp.com/send?phone=54 9 2235 25-3290" target="_blank">Contactar por WhatsApp</a></button>
+        <div class="botonera">
+          <button id="btn-cont" class="btn btn-dark" type="button" data-toggle="modal" data-target="#modal1">CONTACTO</button>
+          <button id="btn-wsp" class="btn btn-light" type="button"><a href="https://api.whatsapp.com/send?phone=54 9 2235 25-3290" target="_blank">Contactar por WhatsApp</a></button></br>
+          <button id="btn-vermas" class="btn btn-dark btn-vermas" type="button"><a href="#concepto-2">Ver mas</a></button>
+        </div>
+            
             
               
 
@@ -196,6 +196,7 @@
     </section>
     <section><div id="ubicacion-6"></div></section>
     <section id="ubicacion">
+      <hr class="linea" >
       <div id="ubi-text"><h2>UBICACIÓN</h2></div>
       <div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.3915416299124!2d-57.54641248473064!3d-37.967990879724624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dbdd02fbb0d9%3A0xc497bd5e70a32f64!2sPatagones%20%26%20Aragon%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1608050555776!5m2!1ses!2sar" width="1180" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -218,12 +219,11 @@
       <div id="consultas">
         <h3>Consultá por planes</h3>
         <h3>personalizados</h3>
-        <div id="botonera">
-          
-        <button id="btn-cont2" class="btn btn-dark" type="button" data-toggle="modal" data-target="#modal1">CONTACTO</button>
-        <button id="btn-wsp2" class="btn btn-light" type="button"><a href="https://api.whatsapp.com/send?phone=54 9 2235 25-3290" target="_blank">Contactar por WhatsApp</a></button>
-          
-          
+        <div id="botonera2" class="botonera2">
+          <ul>
+            <li><button id="btn-cont2" class="btn btn-dark" type="button" data-toggle="modal" data-target="#modal1">CONTACTO</button></li>
+            <li><button id="btn-wsp2" class="btn btn-light" type="button"><a href="https://api.whatsapp.com/send?phone=54 9 2235 25-3290" target="_blank">Contactar por WhatsApp</a></button></li>
+          </ul> 
         </div>
         
           <div id="iconos">

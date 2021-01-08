@@ -55,11 +55,24 @@ section {
 #inicio {
   height: 650px;
 }
+.modal-content {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 40px;
+}
+.modal-body input {
+  margin-bottom: 20px;
+  font-size: small;
+}
+.modal-btn {
+  float: right;
+  background-color: #000;
+}
+
 #btn-wsp {
-  height: 45px;
+  height: 35px;
   width: 255px;
   box-sizing: border-box;
-  padding-bottom: 10px;
   position: static;
   opacity: 100%;
   text-align: center;
@@ -67,25 +80,79 @@ section {
   z-index: 100;
   border: #000;
   border-style: solid;
+  font-family: Poppins-ExtraLight;
 }
 #btn-wsp a {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -8px;
+  color: #000;
 }
 
 #btn-wsp a:hover {
   text-decoration: none;
   color: #000;
+  opacity: 100%;
   padding-bottom: 10px;
 }
 #btn-cont {
-  width: 255px;
-  height: 45px;
+  width: 250px;
+  height: 35px;
   margin-right: 20px;
   opacity: 100%;
   background-color: #000000;
   padding: 3px 3px 3px 3px;
+  font-family: Poppins-ExtraLight;
 }
-
+.mod {
+  width: 380px;
+  height: 500px;
+}
+.cerrar {
+  position: absolute;
+  top: -55px;
+  right: -55px;
+}
+.cerrar-x {
+  font-size: 38px;
+  font-weight: bolder;
+  color: #fff;
+}
+.btn-vermas {
+  background-color: #000000;
+  text-decoration: none;
+  margin-left: 132px;
+  margin-top: 35px;
+  width: 160px;
+  height: 35px;
+  opacity: 100%;
+  z-index: 100;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  font-family: Poppins-ExtraLight;
+}
+.btn-vermas a {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -8px;
+  color: #fff;
+}
+.btn-vermas a:hover {
+  text-decoration: none;
+  opacity: 100%;
+  z-index: 100;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.botonera {
+  float: left;
+  margin-top: 300px;
+  margin-left: 310px;
+  font-family: Poppins-ExtraLight;
+}
 #navbar {
   left: 100px;
   display: inline-block;
@@ -109,14 +176,13 @@ section {
 }
 #navbar li a {
   padding: 15px;
-
   font-size: 1em;
   text-align: center;
   font-family: Code-pro-light;
 }
 #navbar li a:hover {
   text-decoration: underline 0.5px;
-  text-decoration-color: #000;
+  text-decoration-color: #00000029;
   color: #000;
 }
 .myicono {
@@ -224,7 +290,7 @@ section {
 }
 #eco {
   width: 1180px;
-  height: 650px;
+  height: 550px;
   background-color: #ebffeb;
 }
 .parallax3 {
@@ -232,7 +298,7 @@ section {
   background-image: url(Solarium\ zoom.jpeg);
   /* Set a specific height */
 
-  height: 320px;
+  height: 160px;
 
   /* Create the parallax scrolling effect */
   background-attachment: scroll;
@@ -244,10 +310,10 @@ section {
   width: 1180px;
   height: 40px;
   background: #000000 0% 0% no-repeat padding-box;
-  opacity: 0.5;
+  opacity: 0.4;
   margin: 0;
 
-  transform: translateY(700%);
+  transform: translateY(300%);
 }
 #eco-fondo p {
   color: #fff;
@@ -260,7 +326,7 @@ section {
 
 #eco-text {
   font-family: Poppins-ExtraLight;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 90px;
   float: left;
 }
@@ -273,7 +339,7 @@ section {
 }
 .eco-img2 {
   float: right;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-right: 40px;
   width: 20%;
   height: 20%;
@@ -318,9 +384,8 @@ section {
   height: 50px;
 }
 #nosotros {
-  height: 800px;
+  height: 700px;
   color: #fff;
-  padding-top: 40px;
 }
 #pie {
   float: left;
@@ -340,7 +405,7 @@ section {
 #consultas {
   float: right;
   text-align: center;
-  padding-right: 150px;
+  padding-right: 300px;
   margin-top: 50px;
   font-family: Code-pro-light;
 }
@@ -356,7 +421,7 @@ section {
   background-image: url(./imagenes/Lateral2.jpg);
   /* Set a specific height */
 
-  height: 100%;
+  height: 700px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -366,13 +431,13 @@ section {
 }
 #nos-fondo {
   width: 1180px;
-  height: 450px;
+  height: 400px;
   background: #000000 0% 0% no-repeat padding-box;
   opacity: 0.8;
   margin: 0;
 
-  -ms-transform: translateY(38%);
-  transform: translateY(38%);
+  -ms-transform: translateY(40%);
+  transform: translateY(40%);
 }
 #btn-wsp2 {
   height: 35px;
@@ -401,16 +466,21 @@ section {
 #btn-cont2 {
   border-color: #fff;
   border: solid 3px;
-  width: 200px;
+  width: 255px;
   opacity: 100%;
   background-color: #000000;
   padding: 3px 3px 3px 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.botonera2 ul {
+  list-style: none;
 }
 
 #iconos {
   font-size: xx-large;
-  margin-top: 100px;
-  padding-right: 10px;
+  margin-top: 70px;
+  margin-left: 25px;
 }
 
 #contacto {
@@ -436,6 +506,9 @@ section {
     width: 200px;
     height: 35px;
     margin-right: 10px;
+  }
+  .botonera {
+    margin-left: 60px;
   }
 
   #inicio {
@@ -589,7 +662,7 @@ section {
 }
 /*********************** hasta aca llega***********************************/
 
-@media all and (max-width: 599px) {
+@media all and (min-width: 360px) and (max-width: 599px) {
   #in-img {
     width: 100%;
   }
@@ -599,6 +672,7 @@ section {
   }
   #inicio {
     height: auto;
+    margin-top: -300px;
   }
 
   #btn-cont {
@@ -606,10 +680,22 @@ section {
     height: 35px;
     margin-right: 20px;
     opacity: 100%;
+    margin-bottom: 5px;
   }
-
   header {
     height: auto;
+  }
+  .botonera {
+    float: none;
+    margin-left: 80px;
+  }
+  .btn-vermas {
+    background-color: #000000;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 255px;
   }
 
   #marca {
@@ -620,6 +706,7 @@ section {
   #marca h4 {
     font-size: xx-large;
     padding-top: 10px;
+    padding-left: 80px;
   }
   #navbar {
     width: 100%;
@@ -674,13 +761,17 @@ section {
     position: relative;
     display: inline-block;
   }
-  #marca h4 {
-    padding-left: 80px;
-  }
-
   #concept-text {
     width: 100%;
     height: auto;
+  }
+  #concept-text h1 {
+    margin-top: 20px;
+  }
+  #concept-text p {
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 20px;
   }
 
   #concepto-2 {
@@ -696,6 +787,7 @@ section {
   #con-img {
     width: 100%;
     float: none;
+    margin-bottom: 10px;
   }
 
   #con-img2 {
@@ -717,6 +809,8 @@ section {
   #uni-text {
     width: 100%;
     float: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   #eco-4 {
@@ -767,7 +861,7 @@ section {
     height: auto;
   }
   #nosotros {
-    height: 900px;
+    height: auto;
   }
   #pie {
     float: none;
@@ -777,20 +871,24 @@ section {
   #consultas {
     float: none;
     padding-left: 80px;
-    font-size: x-small;
   }
+  #consultas h3 {
+    font-size: 18px;
+  }
+
   #iconos {
     width: 100%;
     height: auto;
-    font-size: large;
+    font-size: x-small;
     margin-top: 0px;
+    display: inline-block;
   }
 
   #nos-fondo {
     width: 100%;
     height: auto;
-    -ms-transform: translateY(20%);
-    transform: translateY(20%);
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
   }
 
   #contacto {
