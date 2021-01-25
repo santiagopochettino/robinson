@@ -24,15 +24,14 @@ h4 {
 
 header,
 section {
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto;*/
 }
 #in-img {
-  width: 1180px;
   margin-top: 60px;
 }
 #in-img h2 {
-  padding: 50px 80px;
+  padding: 80px 117px;
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
@@ -43,9 +42,9 @@ section {
 .parallax {
   /* The image used */
 
-  background-image: url(./imagenes/Lateral.jpg);
+  background-image: url(./imagenes/Esquina-P.jpeg);
   /* Set a specific height */
-  height: 650px;
+  height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -53,16 +52,16 @@ section {
   background-size: cover;
 }
 #inicio {
-  height: 650px;
+  height: 850px;
 }
 .modal-content {
-  box-sizing: border-box;
   margin: 0;
-  padding: 40px;
+  padding: 50px;
+  box-sizing: border-box;
 }
 .modal-body input {
-  margin-bottom: 20px;
-  font-size: small;
+  margin-bottom: 40px;
+  font-size: medium;
 }
 .modal-btn {
   float: right;
@@ -71,7 +70,7 @@ section {
 
 #btn-wsp {
   height: 35px;
-  width: 255px;
+  width: 270px;
   box-sizing: border-box;
   position: static;
   opacity: 100%;
@@ -81,6 +80,7 @@ section {
   border: #000;
   border-style: solid;
   font-family: Poppins-ExtraLight;
+  padding-top: 10px;
 }
 #btn-wsp a {
   font-weight: 400;
@@ -99,7 +99,7 @@ section {
   padding-bottom: 10px;
 }
 #btn-cont {
-  width: 250px;
+  width: 270px;
   height: 35px;
   margin-right: 20px;
   opacity: 100%;
@@ -132,6 +132,8 @@ section {
   z-index: 100;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   font-family: Poppins-ExtraLight;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 .btn-vermas a {
   font-weight: 400;
@@ -149,7 +151,7 @@ section {
 }
 .botonera {
   float: left;
-  margin-top: 300px;
+  margin-top: 310px;
   margin-left: 310px;
   font-family: Poppins-ExtraLight;
 }
@@ -166,7 +168,7 @@ section {
 }
 #nav {
   float: left;
-  margin-left: 40px;
+  margin-left: 170px;
 }
 
 #navbar ul li {
@@ -175,7 +177,7 @@ section {
   margin-top: 20px;
 }
 #navbar li a {
-  padding: 15px;
+  padding: 25px;
   font-size: 1em;
   text-align: center;
   font-family: Code-pro-light;
@@ -191,29 +193,27 @@ section {
   display: none;
 }
 #content {
-  max-width: 1180px;
   position: relative;
   margin: 0 auto;
   border: solid 1px;
   border-color: #00000029;
 }
 #content header {
-  width: 1180px;
+  width: 100%;
   height: 60px;
   background-color: #fff;
   position: fixed;
   z-index: 100;
   margin-top: 0;
-  border: solid 1px;
-  border-color: #00000029;
+  box-shadow: 0px 2px 0px 0px rgb(248, 246, 246);
 }
 #marca h4 {
-  padding-left: 80px;
+  padding-left: 120px;
   font-family: Code-pro-light;
 }
 
 #concept-text {
-  width: 1034px;
+  width: 100%;
   height: 300px;
   padding-left: 70px;
 }
@@ -224,54 +224,59 @@ section {
 }
 #concept-text p {
   padding-left: 60px;
-  text-align: center;
   font-family: Poppins-ExtraLight;
-  margin-top: 50px;
+  margin-top: 40px;
+  font-size: larger;
 }
 #concepto-2 {
-  height: 100px;
+  height: 70px;
 }
 #concepto {
-  height: 600px;
+  height: 800px;
 }
 .linea {
   width: 800px;
   color: #000;
 }
 #con-img {
-  width: 580px;
+  width: 49%;
   float: right;
 }
 .concpt-img {
   width: 100%;
   opacity: 1;
+  height: 350px;
 }
 #con-img2 {
-  width: 580px;
+  width: 49%;
   float: left;
 }
 .concpt-img2 {
   width: 100%;
   opacity: 1;
+  height: 350px;
 }
 #unidades-3 {
   height: 100px;
 }
 #unidades {
-  height: 420px;
+  height: 760px;
 }
 #uni-img {
   width: 530px;
-  float: right;
+  float: left;
 }
 .uni-img {
   width: 100%;
   height: 420px;
+  margin-top: 100px;
+  margin-left: 230px;
 }
 #uni-text {
   width: 600px;
   float: left;
-  padding-left: 90px;
+  padding-left: 125px;
+  margin-top: 100px;
 }
 #uni-text p {
   font-size: medium;
@@ -289,35 +294,26 @@ section {
   height: 100px;
 }
 #eco {
-  width: 1180px;
-  height: 550px;
+  width: 100%;
+  height: 600px;
   background-color: #ebffeb;
 }
-.parallax3 {
-  /* The image used */
-  background-image: url(Solarium\ zoom.jpeg);
-  /* Set a specific height */
-
-  height: 160px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.banner {
+  background-image: url(./imagenes/Solarium\ zoom2.jpeg);
+  height: 200px;
 }
 #eco-fondo {
-  width: 1180px;
+  width: 100%;
   height: 40px;
   background: #000000 0% 0% no-repeat padding-box;
   opacity: 0.4;
   margin: 0;
 
-  transform: translateY(300%);
+  transform: translateY(400%);
 }
 #eco-fondo p {
   color: #fff;
-  text-align: left;
+  text-align: center;
   font-size: 25px;
   font-family: Poppins-ExtraLight;
   opacity: 100%;
@@ -327,35 +323,39 @@ section {
 #eco-text {
   font-family: Poppins-ExtraLight;
   margin-top: 40px;
-  margin-left: 90px;
+  margin-left: 125px;
   float: left;
 }
 #eco-text p {
   font-size: 20px;
   margin-top: 30px;
 }
-#eco-img2 {
-  width: 1180px;
-}
 .eco-img2 {
-  float: right;
-  margin-top: 40px;
-  margin-right: 40px;
-  width: 20%;
-  height: 20%;
+  float: left;
+  margin-top: 60px;
+  margin-left: 250px;
+  width: 10%;
+  height: 10%;
 }
 #planos-5 {
   height: 50px;
 }
 #planos {
-  height: 750px;
+  height: 900px;
 }
 #carousel-planos {
-  height: 300px;
-  width: 1180px;
+  height: 250px;
+  width: 100%;
 }
 .carrusel {
   width: 100%;
+}
+.carousel-inner {
+  box-sizing: border-box;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  padding-bottom: 150px;
 }
 #pl-text {
   margin-top: 20px;
@@ -370,10 +370,11 @@ section {
   height: 150px;
 }
 #ubicacion {
-  height: 400px;
+  height: 550px;
 }
 #ubicacion iframe {
   margin-top: 30px;
+  width: 100%;
 }
 #ubi-text h2 {
   text-align: center;
@@ -389,11 +390,14 @@ section {
 }
 #pie {
   float: left;
-  margin-left: 80px;
+  margin-left: 125px;
   margin-top: 50px;
+  font-weight: bold;
 }
 #pie h3 {
   font-family: Code-pro-light;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 #pie p {
   font-family: Poppins-ExtraLight;
@@ -403,11 +407,15 @@ section {
   font-family: Poppins-ExtraLight;
 }
 #consultas {
-  float: right;
+  float: left;
   text-align: center;
-  padding-right: 300px;
   margin-top: 50px;
   font-family: Code-pro-light;
+  margin-left: 350px;
+}
+#consultas h3 {
+  font-weight: bold;
+  text-align: left;
 }
 #nos-img {
   color: #ffffff;
@@ -430,7 +438,7 @@ section {
   background-size: cover;
 }
 #nos-fondo {
-  width: 1180px;
+  width: 100%;
   height: 400px;
   background: #000000 0% 0% no-repeat padding-box;
   opacity: 0.8;
@@ -450,6 +458,7 @@ section {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   border-radius: #000;
+
   border-style: solid;
 }
 #btn-wsp2 a {
@@ -479,7 +488,7 @@ section {
 
 #iconos {
   font-size: xx-large;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-left: 25px;
 }
 
@@ -491,10 +500,21 @@ section {
   font-size: smaller;
   font-family: Poppins-ExtraLight;
 }
+#contacto a {
+  font-size: medium;
+  font-family: Poppins-ExtraLight;
+  color: #19b99a;
+  font-weight: bold;
+}
+#contacto a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+}
 
 @media all and (min-width: 600px) and (max-width: 1023px) {
   #in-img {
-    width: 960px;
+    width: 100%;
     height: 750px;
     margin-top: 100px;
   }
@@ -508,7 +528,7 @@ section {
     margin-right: 10px;
   }
   .botonera {
-    margin-left: 60px;
+    margin-left: 120px;
   }
 
   #inicio {
@@ -517,68 +537,83 @@ section {
   #navbar {
     display: block;
   }
+  #nav {
+    margin-left: 0px;
+  }
+  #navbar li a {
+    padding: 15px;
+    font-size: 0.9em;
+  }
 
   #content {
-    max-width: 960px;
+    max-width: 100%;
   }
   #content header {
-    width: 960px;
+    width: 100%;
     height: 160px;
   }
   #inicio-1 {
     height: 50px;
   }
   #concept-text {
-    width: 960px;
-    height: 250px;
+    width: 100%;
+    height: 400px;
   }
 
   #concepto-2 {
-    height: 200px;
+    height: 170px;
   }
   #concepto {
     height: 1200px;
   }
 
   #con-img {
-    width: 960px;
+    width: 100%;
     float: left;
   }
 
   #con-img2 {
-    width: 960px;
+    width: 100%;
   }
   .concpt-img2 {
     margin-top: 15px;
   }
   #unidades-3 {
-    height: 200px;
+    height: 170px;
   }
   #unidades {
-    height: 300px;
+    height: 800px;
   }
   #uni-img {
-    width: 960px;
+    width: 100%;
     float: left;
   }
   .uni-img {
-    display: none;
+    height: 420px;
+    margin-top: 50px;
+    margin-left: 0px;
   }
   #uni-text {
-    width: 960px;
+    width: 100%;
     text-align: center;
+    padding-left: 25px;
+    margin-top: 10px;
   }
 
   #eco-4 {
     height: 200px;
   }
   #eco {
-    width: 960px;
+    width: 100%;
     height: 950px;
+  }
+  .banner {
+    background-image: url(./imagenes/Solarium\ zoom2.jpeg);
+    height: 200px;
   }
 
   #eco-fondo {
-    width: 960px;
+    width: 100%;
     height: 40px;
   }
   #eco-fondo p {
@@ -598,7 +633,7 @@ section {
     margin-top: 30px;
   }
   #eco-img2 {
-    width: 960px;
+    width: 100%;
   }
   .eco-img2 {
     float: left;
@@ -610,23 +645,29 @@ section {
   }
 
   #planos-5 {
-    height: 200px;
+    height: 170px;
   }
   #planos {
-    height: 700px;
+    height: 400px;
   }
   #carousel-planos {
     height: 400px;
-    width: 960px;
+    width: 100%;
+  }
+  .carousel-inner {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    padding-bottom: 10px;
   }
   #ubicacion-6 {
     height: 200px;
   }
   #ubicacion {
-    height: 700px;
+    height: 400px;
   }
   #ubicacion iframe {
-    width: 960px;
+    width: 100%;
   }
 
   #nosotros-7 {
@@ -638,33 +679,45 @@ section {
     padding-top: 0px;
   }
   #pie {
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 30px;
   }
   #pie-p {
     padding-left: 100px;
   }
   #nos-fondo {
-    width: 960px;
+    width: 100%;
     height: 800px;
     -ms-transform: translateY(10%);
     transform: translateY(10%);
   }
+  .parallax2 {
+    height: 1000px;
+  }
   #consultas {
-    float: right;
-    text-align: center;
-    padding-right: 250px;
-    margin-top: 50px;
+    float: left;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-left: 200px;
   }
   #contacto {
     height: 0;
   }
+  .linea {
+    width: 400px;
+  }
 }
 /*********************** hasta aca llega***********************************/
 
-@media all and (min-width: 360px) and (max-width: 599px) {
+@media all and (max-width: 599px) {
   #in-img {
     width: 100%;
+  }
+  #in-img h2 {
+    font-size: 13vw;
+    width: 100%;
+    padding: 80px 45px;
   }
 
   .parallax {
@@ -673,12 +726,13 @@ section {
   #inicio {
     height: auto;
     margin-top: -300px;
+    width: 100%;
   }
 
   #btn-cont {
-    width: 255px;
+    width: 270px;
     height: 35px;
-    margin-right: 20px;
+    margin-right: 0px;
     opacity: 100%;
     margin-bottom: 5px;
   }
@@ -687,7 +741,7 @@ section {
   }
   .botonera {
     float: none;
-    margin-left: 80px;
+    margin-left: 30px;
   }
   .btn-vermas {
     background-color: #000000;
@@ -695,7 +749,7 @@ section {
     margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 255px;
+    width: 270px;
   }
 
   #marca {
@@ -706,7 +760,7 @@ section {
   #marca h4 {
     font-size: xx-large;
     padding-top: 10px;
-    padding-left: 80px;
+    padding-left: 170px;
   }
   #navbar {
     width: 100%;
@@ -767,11 +821,13 @@ section {
   }
   #concept-text h1 {
     margin-top: 20px;
+    margin-right: 95px;
   }
   #concept-text p {
     text-align: left;
     padding-left: 5px;
     margin-bottom: 20px;
+    margin-right: 70px;
   }
 
   #concepto-2 {
@@ -781,7 +837,7 @@ section {
     height: auto;
   }
   .linea {
-    width: 100%;
+    display: none;
   }
 
   #con-img {
@@ -804,6 +860,13 @@ section {
   #uni-img {
     width: 100%;
     float: none;
+    margin-bottom: 20px;
+  }
+  .uni-img {
+    width: 100%;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 0px;
   }
 
   #uni-text {
@@ -811,6 +874,11 @@ section {
     float: none;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 50px;
+  }
+  #uni-text h4 {
+    font-size: 16px;
   }
 
   #eco-4 {
@@ -820,15 +888,20 @@ section {
     width: 100%;
     height: auto;
   }
-  .parallax3 {
-    display: none;
-  }
   #eco-fondo {
     width: 100%;
     height: auto;
-    transform: translateY(700%);
+    transform: translateY(377%);
   }
-
+  #eco-fondo p {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  #eco-text {
+    margin-top: 20px;
+    margin-left: 60px;
+    float: none;
+  }
   #eco-img2 {
     display: none;
   }
@@ -844,6 +917,13 @@ section {
   #carousel-planos {
     height: auto;
     width: 100%;
+  }
+  .carousel-inner {
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    padding-bottom: 0px;
   }
 
   #ubicacion-6 {
@@ -862,15 +942,23 @@ section {
   }
   #nosotros {
     height: auto;
+    width: 100%;
   }
   #pie {
     float: none;
     font-size: small;
+    margin-left: 25px;
+    margin-top: 40px;
   }
-
+  #pie h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
   #consultas {
     float: none;
-    padding-left: 80px;
+    padding-left: 20px;
+    width: 100%;
+    margin-left: 0px;
   }
   #consultas h3 {
     font-size: 18px;
@@ -893,6 +981,14 @@ section {
 
   #contacto {
     height: auto;
+    width: 100%;
+    font-size: small;
+  }
+  .botonera2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    margin-left: -80px;
   }
 }
 /************************* hasta aca llega***************************/
